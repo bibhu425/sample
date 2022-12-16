@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My first Page</title>
+    </head>
+    <body>
+        <figure>
+        <img src="bibhu.jpeg" 
+        width="250px" height="300px" alt="a handsome boy"><!--or we can use width and height in terms of pixels like 400px and 500px. But using in % it accomodate your size with the browser page-->
+        <figcaption>Set Image Size</figcaption>
+    </figure>
+
+    <h1>Video</h1>
+    <video src="DJ dance.mp4" width="400" autoplay controls loop>
+      Your browser doesnot support the <code>video</code> element
+    </video>
+    <br>
+
+    <h1>Audio</h1>
+    <audio src="song.mp3" controls>Audio(bollywood)</audio>
+    <br>
+    <audio src="song.mp3#t=10" controls>Audio(bollywood)</audio><!--starts from 10th seconds-->
+    <br>
+    <audio src="song.mp3#t=5,20" controls>Audio(bollywood)</audio><!--palys from 5th to 20th seconds-->
+
+        <section>
+            <!--Unordered/Ordered Lists-->
+        <ul>
+            <li>My name is Bibhujit Nayak.</li>
+            <li>I am a 2nd year undergraduate student at IIT Kharagpur.</li>
+            <li>I am studying in the department of Electrical Engineering.</li>
+            <li><em>Nice to Meet You!!!</em></li>
+        </ul>
+        <ol>
+            <li>Head north on N Halsted St</li>
+            <li value="3">Turn right on W Diversey Pkwy</li>
+            <li>Turn left on N Orchard St</li>
+        </ol>
+    </section>
+             <!--Description Lists-->
+        <dl>
+            <dt><strong>Study</strong></dt>
+            <dd>The devotion of time and attention to acquiring knowledge on an academic subject, especially by means of books</dd>
+            <dt><strong>design</strong></dt>
+            <dd>A plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made</dd>
+            <dd>Purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object</dd>
+            <dt><strong>business</strong></dt>
+            <dt><strong>work</strong></dt>
+            <dd>A person's regular occupation, profession, or trade</dd>
+          </dl>
+          <!--Nesting Lists-->
+          <ol>
+            <li>Walk the dog</li>
+            <li>Fold laundry</li>
+            <li>
+              Go to the grocery and buy:
+              <ul>
+                <li>Milk</li>
+                <li>Bread</li>
+                <li>Cheese</li>
+              </ul>
+            </li>
+            <li>Mow the lawn</li>
+            <li>Make dinner</li>
+          </ol>
+          <!--Table -->
+          <table border="1">
+            <caption>Design and Front-End Developement</caption>
+            <thead>
+            <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Availability</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td >Don&#8217;t Make Me Think by Steve Krug</td>
+                <td>In Stock</td>
+                <td>1</td>
+                <td>$30.02</td>
+              </tr>
+              <tr>
+                <td>A Project Guide to UX Design by Russ Unger &#38; Carolyn Chandler</td>
+                <td>In Stock</td>
+                <td>2</td>
+                <td>$52.94 ($26.47 &#215; 2)</td>
+              </tr>
+              <tr>
+                <td>Introducing HTML5 by Bruce Lawson &#38; Remy Sharp</td>
+                <td>Out of Stock</td>
+                <td>1</td>
+                <td>$22.23</td>
+              </tr>
+              <tr>
+                <td>Bulletproof Web Design by Dan Cederholm</td>
+                <td>In Stock</td>
+                <td>1</td>
+                <td>$30.17</td>
+              </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Subtotal</td>
+                    <td></td>
+                   <td></td>
+                   <td>$135.36</td>
+                </tr>
+                <td>Tax</td>
+      <td></td>
+      <td></td>
+      <td>$13.54</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td></td>
+      <td></td>
+      <td>$148.90</td>
+    </tr>
+            </tfoot>
+          </table>
+    </body>
+</html>
